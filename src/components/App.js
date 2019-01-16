@@ -5,6 +5,8 @@ import '../css/main.css';
 import '../css/slick.css';
 import '../css/slick-theme.css';
 import '../css/jquery.mobile.datepicker.css';
+import '../css/jquery.mobile.datepicker.css';
+
 // import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
 // import 'https://fonts.googleapis.com/css?family=Tajawal';
 import Home from './Home';
