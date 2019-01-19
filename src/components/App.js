@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
+import { BrowserRouter , Route } from 'react-router-dom';
 import '../style/App.css';
-import '../css/bootstrap.css';
 import '../css/main.css';
+import '../css/bootstrap.css';
 import '../css/slick.css';
 import '../css/slick-theme.css';
-import '../css/jquery.mobile.datepicker.css';
-import '../css/jquery.mobile.datepicker.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
-// import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
-// import 'https://fonts.googleapis.com/css?family=Tajawal';
-import Home from './Home';
+import Home from './home/Home';
+// import About from './en/About';
+// import Privacy from './en/Privacy';
+import Login from './en/Login';
+// import SignUp from './en/SignUp';
 
 
 
@@ -18,16 +20,19 @@ class App extends Component {
   render() {
     return (
       
-       <React.Fragment>
-         
-         
-          <p>
-            APP Component
+       <BrowserRouter>
+         <div>
 
-          </p>
           <Home/>
-          
-       </React.Fragment>
+
+          <Route path="/" Component={Home} />
+          <Route path="/login" Component={Login} />
+          {/* <Route path="/about" Component={About} /> */}
+          {/* <Route path="/privacy" Component={Privacy} /> */}
+          {/* <Route path="/signup" Component={SignUp} /> */}
+       
+         </div>
+       </BrowserRouter>
        
    
     );

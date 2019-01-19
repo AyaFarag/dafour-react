@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 
 
-class sign-up extends Component {
+class SignUp extends Component {
   
   render(){
     return(
@@ -12,7 +12,7 @@ class sign-up extends Component {
 <div id="loader"><img src="images/loader.gif"/></div>
 <div id="loadContainer">
     <main class="login">
-        <!-- Header Section !-->
+        {/* <!-- Header Section !--> */}
         <header class="header align-items-center m-0 p-0 position-absolute w-100" id="header">
             <div class="w90">
                 <nav class="navbar navbar-expand-md navbar-light"><a class="navbar-brand logo text-center" href="#">
@@ -666,4 +666,4 @@ class sign-up extends Component {
 }
 }
 
-export default sign-up;
+export default SignUp;

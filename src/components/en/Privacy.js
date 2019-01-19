@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 
 
-class privacy-policy extends Component {
+class Privacy extends Component {
 
   render(){
     return(
@@ -12,7 +12,7 @@ class privacy-policy extends Component {
 <div id="loader"><img src="images/loader.gif"/></div>
 <div id="loadContainer">
 <main class="pages">
-<!-- Header Section !-->
+{/* <!-- Header Section !--> */}
 <header class="header align-items-center m-0 p-0 position-absolute w-100" id="header">
   <div class="w90">
     <nav class="navbar navbar-expand-md navbar-light"> <a class="navbar-brand logo text-center" href="#"> <img src="images/logo.png"> </a>
@@ -168,4 +168,4 @@ class privacy-policy extends Component {
 }
 }
 
-export default privacy-policy;
+export default Privacy;
