@@ -45,22 +45,22 @@ export default class Contact extends Component {
                                     consequat.</p>
                             </div>
                             <div className="p-3">
-                                <p className="lead contact-information"><img alt="alt" src="images/envelope.png" /> info@Dafour.net</p>
-                                <p className="lead contact-information"><img alt="alt" src="images/placeholder.png" /> Lorem ipsum
+                                <p className="lead contact-information"><img alt="alt" src="/images/envelope.png" /> info@Dafour.net</p>
+                                <p className="lead contact-information"><img alt="alt" src="/images/placeholder.png" /> Lorem ipsum
                                     dolor
                                     sit amet</p>
-                                <p className="lead contact-information"><img alt="alt" src="images/smartphone.png" /> +96
+                                <p className="lead contact-information"><img alt="alt" src="/images/smartphone.png" /> +96
                                     (1234567891) +96
                                     (1234567891)</p>
                             </div>
                         </div>
                         <div className="col-md-12 text-center align-items-center">
                             <ul className="list-inline text-center align-self-center align-items-center">
-                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="images/facebook.png" /></li>
-                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="images/twitter.png" /></li>
-                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="images/instagram.png" /></li>
-                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="images/linkedin.png" /></li>
-                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="images/youtube.png" /></li>
+                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="/images/facebook.png" /></li>
+                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="/images/twitter.png" /></li>
+                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="/images/instagram.png" /></li>
+                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="/images/linkedin.png" /></li>
+                                <li className="list-inline-item m-0 p-3"><img alt="alt" src="/images/youtube.png" /></li>
                             </ul>
                             <p className="lead text-center contact-information p-0 mb-5">All copyrights reserved © Dafour
                                 2018</p>

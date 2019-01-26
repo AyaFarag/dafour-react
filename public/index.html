@@ -4,17 +4,17 @@
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/jquery.mobile.datepicker.css"/>
-    <link rel="stylesheet" href=".//css/jquery.mobile.datepicker.theme.css"/>
-    <link rel="stylesheet" href="./style/App.css" type="text/css">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
-    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="./css/slick.css" type="text/css">
-    <link rel="stylesheet" href="./css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="./css/jquery.mobile.datepicker.css" Content-Type="text/css"/>
+    <link rel="stylesheet" href="./css/jquery.mobile.datepicker.theme.css" Content-Type="text/css"/>
+    <link rel="stylesheet" href="./css/bootstrap.css" Content-Type="text/css"  >
+    <link rel="stylesheet" href="./css/main.css" Content-Type="text/css" >
+    <link rel="stylesheet" href="./css/slick.css" Content-Type="text/css">
+    <link rel="stylesheet" href="./css/slick-theme.css" Content-Type="text/css">
+    
 
-    <link rel="stylesheet" href="./css/rtl.css" type="text/css">
-    <link rel="stylesheet" href="./images" type="text/css">
+    <link rel="stylesheet" href="./css/rtl.css" >
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -41,13 +41,12 @@
   </head>
   <body className="h-100" onload="loaderFunc()">
     
-    <div id="loader"><img src="images/loader.gif" alt="loader" /> </div> 
+    <div id="loader"><img src="/images/loader.gif" alt="loader" /> </div> 
 
 
     <div id="loadContainer">
-    
+    <main className="pages">
 
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -63,25 +62,48 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    
+    <!-- <script>
+      $(document).ready(function () {
+        $('.expandBlock').collapser({
+          mode: 'lines',
+          truncate: 3
+        });
+        
+        $('.p2').collapser({
+          mode: 'block',
+          showText: 'Show paragraph',
+          hideText: 'Hide paragraph',
+          changeText: 1
+        });
+        
+        $('.p3 li').collapser({
+          mode: 'words',
+          truncate: 2,
+        });
+        
+      });
+      </script> -->
 <script>
-var myVar;
-
-function loaderFunc() {
+  var myVar;
+  
+  function loaderFunc() {
     myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
+  }
+  
+  function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("loadContainer").style.display = "block";
-
+    
     if (window.location.hash) {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $(window.location.hash).offset().top
-        }, 1000);
+      $([document.documentElement, document.body]).animate({
+        scrollTop: $(window.location.hash).offset().top
+      }, 1000);
     }
-}
-</script>
-
-  </body>
+  }
+  </script>
+  <script src="./js/slick.js"></script>
+  <script type="text/javascript" src="./js/function.js"></script>
+  </main>
+</body>
 </html>

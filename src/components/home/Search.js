@@ -6,7 +6,8 @@ export default class Search extends Component {
       <div>
             {/* <!-- search Section !--> */}
     <section className="slideshow w-100 d-inline-block m-0 p-0">
-        <div className="row m-0 p-0"><img className="d-block img-fluid w-100" src="../images/bg.jpg" alt="bg"  />
+        <div className="row m-0 p-0">
+        <img className="d-block img-fluid w-100" src="../images/bg.jpg" alt="bg"  />
             <div className="search py-5 px-4">
                 <p className="lead text-center">Lorem ipsum dolor sit amet,
                     dicta posidonium ea has, sea aeque facete constituam ut.</p>

@@ -20,7 +20,7 @@ class Home extends Component {
         return (
 
 <Fragment >
-
+        
         <Header />
         <Search />
         <Paper />
